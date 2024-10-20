@@ -1,0 +1,173 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили для навигации */
+.side-nav {
+    width: 200px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.side-nav ul {
+    padding: 0;
+}
+
+.side-nav ul li {
+    margin: 15px 0;
+}
+
+.side-nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    font-size: 16px;
+}
+
+.side-nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Основные стили для контента */
+.main-content {
+    margin-left: 220px; /* Делаем отступ для бокового меню */
+    padding: 20px;
+}
+
+/* Стили для секции hero */
+.hero {
+    position: relative;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: yellow;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Стили для списка грузовиков */
+.truck-listing {
+    margin-top: 50px;
+}
+
+.truck-listing h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.truck-listing ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.truck-listing ul li {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+.truck-listing ul li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.truck-listing ul li p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Стили для секции Features */
+.features {
+    margin-top: 50px;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.features ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Стили для кнопок */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #575757;
+}
